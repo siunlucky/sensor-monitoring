@@ -10,3 +10,15 @@
 ## Login Page
 
 <img src="public/img/Preview/Login-page.png"/>
+
+## Home Page
+
+<img src="public/img/Preview/HomePage.png"/>
+
+## SmartSwitch Page
+
+<img src="public/img/Preview/Smart-switch.png"/>
+
+## Change Password Modal
+
+<img src="public/img/Preview/ChangePassword.png"/>
