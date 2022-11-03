@@ -6,6 +6,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use RealRashid\SweetAlert\Facades\Alert;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\SmartSwitchController;
 use App\Http\Controllers\ChangePasswordController;
 
@@ -22,13 +23,7 @@ use App\Http\Controllers\ChangePasswordController;
 |
 */
 
-Route::get('/', function () {
-    return view('home', [
-        "title" => "Home",
-        'active' => " home",
-    ]);
-})->middleware('auth');
-
+Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
 Route::get('/smart-switch', [SmartSwitchController::class, 'index'])->middleware('auth');
 

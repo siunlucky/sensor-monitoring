@@ -1,7 +1,7 @@
 <div id="sidebar" class="sidebar">
     <ul class="item-label">
         <li class="{{ ($active === " home" ) ? "sidebar-active" : "" }}">
-            <a href="/">
+            <a href="/dashboard">
                 <span class="icon">
                     <svg fill="#000000" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
                         width="50px" height="50px">

@@ -1,0 +1,48 @@
+.main-content{
+    padding: 10px;
+}
+
+.container-top{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+.title-header{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card{
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
+}
+
+.font-weight-800{
+    font-weight: 800;
+}
+
+.card-header{
+    margin-bottom: 30px;
+}
+
+.card-content-right{
+    text-align: right;
+}
+
+
+.justify-content-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex{
+    display: flex;
+}

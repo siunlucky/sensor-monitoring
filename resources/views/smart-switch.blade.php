@@ -1,5 +1,9 @@
 @extends('layout.main')
 
+@section('styles')
+<link rel="stylesheet" href="css/smart-switch.css">
+@endsection
+
 @section('main-content')
 <div class="container-top">
     <div class="title-smartswitch">

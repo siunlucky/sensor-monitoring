@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    @yield('styles')
     @livewireStyles
 </head>
 
