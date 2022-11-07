@@ -69,7 +69,7 @@
                         <span class="item">Network</span>
                     </div>
                 </a>
-                <a href="#">
+                <a href="/upload-data">
                     <div class="dropdown-item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="15" viewBox="0 0 512 512">
                             <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
